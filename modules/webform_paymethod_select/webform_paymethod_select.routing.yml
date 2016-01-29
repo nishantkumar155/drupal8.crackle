@@ -1,0 +1,6 @@
+webform_paymethod_select.continue:
+  path: '/node/{node}/webform-continue/{submission}/{page_num}'
+  defaults:
+    _controller: '\Drupal\webform_paymethod_select\Controller\DefaultController::webform_paymethod_select_continue'
+  requirements:
+    _custom_access: '\Drupal\webform_paymethod_select\Controller\DefaultController::webform_paymethod_select_continue_access'

@@ -1,0 +1,17 @@
+name: 'Webform Payment Method Select'
+description: 'Provides a webform component for selecting payment methods'
+core: 8.x
+dependencies:
+
+  - 'payment (>1.5)'
+  - payment_context
+  - payment_forms
+
+  - webform
+stylesheets:
+  all:
+    - webform_paymethod_select.css
+version: 8.x
+project: webform_paymethod_select
+datestamp: '1441130206'
+type: module
