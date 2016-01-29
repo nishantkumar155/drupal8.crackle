@@ -2,7 +2,7 @@ name: 'Webform Payment Method Select'
 description: 'Provides a webform component for selecting payment methods'
 core: 8.x
 dependencies:
-
+  - little_helpers
   - 'payment (>1.5)'
   - payment_context
   - payment_forms

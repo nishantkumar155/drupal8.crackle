@@ -1,0 +1,9 @@
+name: 'Little helpers'
+core: 8.x
+project: little_helpers
+dependencies:
+  - field
+
+version: 7.x-1.0-rc2
+datestamp: '1443980046'
+type: module
