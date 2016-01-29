@@ -1,0 +1,11 @@
+services:
+  boot_subscriber:
+    class: Drupal\xautoload\EventSubscriber\BootSubscriber
+    tags:
+      -
+        name: event_subscriber
+  init_subscriber:
+    class: Drupal\xautoload\EventSubscriber\InitSubscriber
+    tags:
+      -
+        name: event_subscriber

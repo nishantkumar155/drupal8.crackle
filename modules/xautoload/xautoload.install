@@ -1,0 +1,55 @@
+<?php
+
+// Due to https://www.drupal.org/node/2228825, it can happen that
+// xautoload.module is not included yet, so xautoload() would not work.
+require_once __DIR__ . '/xautoload.module';
+
+/**
+ * Implements hook_install()
+ */
+function xautoload_install() {
+  // Set module weight for xautoload to run before other modules.
+  // This has to work in unit tests!
+  xautoload()->system->installSetModuleWeight(-90);
+}
+
+/**
+ * Implements hook_uninstall()
+ */
+function xautoload_uninstall() {
+  // @FIXME
+// // @FIXME
+// // The correct configuration object could not be determined. You'll need to
+// // rewrite this call manually.
+// variable_del(XAUTOLOAD_VARNAME_CACHE_TYPES);
+
+  // @FIXME
+// // @FIXME
+// // The correct configuration object could not be determined. You'll need to
+// // rewrite this call manually.
+// variable_del(XAUTOLOAD_VARNAME_CACHE_LAZY);
+
+  // @FIXME
+// // @FIXME
+// // The correct configuration object could not be determined. You'll need to
+// // rewrite this call manually.
+// variable_del(XAUTOLOAD_VARNAME_REPLACE_CORE);
+
+  // @FIXME
+// // @FIXME
+// // The correct configuration object could not be determined. You'll need to
+// // rewrite this call manually.
+// variable_del(XAUTOLOAD_VARNAME_CACHE_PREFIX);
+
+
+  // The following variable is a leftover from previous versions.
+  \Drupal::config('xautoload.settings')->clear('xautoload_cache_mode')->save();
+}
+
+/**
+ * Implements hook_update_N()
+ */
+function xautoload_update_7000() {
+  // Set module weight for xautoload to run before other modules.
+  db_query("UPDATE {system} SET weight = -90 WHERE name = 'xautoload' AND type = 'module'");
+}
