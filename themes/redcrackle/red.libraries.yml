@@ -1,0 +1,7 @@
+red:
+  version: 8.0.0-beta16
+  dependencies:
+    - core/jquery
+  css:
+    base:
+      css/sub-theme.css: {}

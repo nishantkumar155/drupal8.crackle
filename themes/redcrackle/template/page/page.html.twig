@@ -1,0 +1,156 @@
+<div id="main_wrapper">
+    <header >
+        <div class="container">
+            <div id ="top_header">
+                <div class="row">
+                    <div class="six column">
+                        {% if header_login or header_contact %}
+                            <ul class="header_icon left">
+                                {% if header_login %}<li><a href="#" data-reveal-id="login_modal"><i class="general foundicon-settings"></i></a></li>{% endif %}
+                                {% if header_contact %}<li><a href="#" data-reveal-id="contact_modal"><i class="general foundicon-mail"></i></a></li>{% endif %}
+                            </ul>
+                        {% endif %}
+                    </div>
+                    {% if header_top_left %}
+                        {{ page.header_top_left }}
+                    {% endif %}
+                </div>
+                {% if header_top_right %}
+                    {{ page.header_top.right }}
+                {% endif %}
+            </div>
+            <div class="row">
+                <div class="three columns branding">
+                    {% if logo %}
+                        <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home" id="logo">
+                            <img src="{{ logo }}" alt="{{ 'Red Crackle Home'|t }}" />
+                        </a>
+                    {% endif %} {#end logo#}
+                    {% if site_name or site_slogan %}
+                        <div id="name-and-slogan" {% if disable_site_name and disable_site_slogan %} class="hidden" {% endif %} >
+                            {% if site_name %}
+                                <h1 id="main_title_text" {% if disable_site_name %} class="hidden" {% endif %}>
+                                    <a href= "{{ front_page }}" title="{{ 'Home'|t }}" rel="home"><span> {{ site_name }}</span></a>
+                                </h1>
+                            {% endif %}
+                            {% if site_slogon %}
+                                <h2 id="main_title_slogan" {% if disable_site_slogan %} class="hidden" {% endif %} >
+                                    {{  site_slogan }}
+                                </h2>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                </div>
+                {#end of branding#}
+                <div class="nine columns">
+                    <div id="nav">
+                        {#begin menu#}
+                        <nav class="top-bar">
+                            <ul class="left">
+                                <li class="name">
+                                    <h1>
+                                        <a href="#">
+                                            Select a page
+                                        </a>
+                                    </h1>
+                                </li>
+                                <li class="toggle-topbar"><a href="#"></a></li>
+                            </ul>
+                            <section class="menu_wrap">
+                                {% if header_menu %} {{ page.header_menu }} {% endif %}
+                            </section>
+                        </nav>
+                    </div>
+                </div>
+                {#end of menu#}
+            </div>
+        </div>
+    </header>
+    {# Header login modal (block region) #}
+    <div id="login_modal" class="reveal-modal medium">
+        {{ page.header_login }}
+        <a class="close-reveal-modal">&#215;</a>
+    </div>
+    <div id="heading_wrapper">
+        {{ page.page_heading }}
+        {#{%  if  not ( drupal_is_front_page()) %}#}
+        <div class="row">
+            <div class="twelve columns">
+                <h2 class="page_heading_text"> {{  title }}</h2>
+                {#<div id="breadcrumbs">#}
+                {#<h3>{% if (theme_get_setting('breadcrumbs') == '1') %}#}
+                {#{% set {{ breadcrumb }} ~ {{ title }} %}#}
+                {#{% endif %}#}
+                {#</h3></div>#}
+            </div>
+        </div>
+        {#{%  endif %}#}
+
+    <div class="row">
+        <div id="main_contain_wrap"  class = "{% if sidebar_first or sidebar_second  %} eight columns {% else %} twelve columns {% endif %}">
+        {#<div id="main_content" class="clearfix">#}
+            {#{{ title_prefix }}#}
+            {#{{ title_suffix }}#}
+
+            {#{{ page.help }}#}
+            {#{% if (action_link) %}#}
+            {#<ul class="action-links">#}
+            {#{{ pahe.action_link }}#}
+            {#</ul>#}
+            {#{% endif %}#}
+            {{ page.content }}
+            {% if page.sidebar_first or page.sidebar_second %}
+                <div class="four columns">
+                    <div id="sidebar_wrap">
+                        {% if page.sidebar_first %}
+                            <aside id="sidebar-first" role="complementary" class="sidebar clearfix">
+                                {{ page.sidebar_first }}
+                            </aside>
+                        {% endif %}
+                        {% if page.sidebar_second %}
+                            <aside id="sidebar-second" role="complementary" class="sidebar clearfix">
+                                {{ page.sidebar_second }}
+                            </aside>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+        </div>
+    </div>
+</div>
+<div id="after-content">
+            {{ page.after_content }}
+</div>
+<div id="footer">
+    <div class="container">
+
+        {% if footer_1 or footer_2 or footer_3 or footer_4 %}
+
+        <div class="row">
+            <div class="three columns">
+                {{ page.footer_1 }}
+            </div>
+            <div class="three columns">
+                {{ page.footer_2 }}
+            </div>
+
+            <div class="three columns">
+                {{ page.footer_3 }}
+            </div>
+
+            <div class="three columns">
+                {{ page.footer_4 }}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+      {% if footer_full  %}
+    <div class="row">
+        <div class="twelve columns">
+            {{ page.footer_full }}
+        </div>
+    </div>
+    {% endif %}
+</div>
+{{ page.modal_markup }}
