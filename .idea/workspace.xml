@@ -2,100 +2,110 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3cd14a2-94c9-4916-9475-473b567be477" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/services.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_block--local-actions-block.html.twig_2ee8ff3df8a89c8563a6164b229ea5061c2e9d1e23254440be1e262a03ac5fb8/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_block--local-actions-block.html.twig_2ee8ff3df8a89c8563a6164b229ea5061c2e9d1e23254440be1e262a03ac5fb8/0a7985789cebe75927461687d129a4daa190538b030fe81f03b7c55486cb14ec.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_block--local-tasks-block.html.twig_0bf333cc077f65d70b85426ffdb2817b2940ce16aefbdd9e800e18302bda8ff7/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_block--local-tasks-block.html.twig_0bf333cc077f65d70b85426ffdb2817b2940ce16aefbdd9e800e18302bda8ff7/681bf6da061381a3ea97370e1e8cf37a2c869722379dae317df0432080129a86.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_block--system-messages-block.html.twig_dd3bc58d05e32981e93083108467ad0f7b97795f719d5a15c9ba009cebe192c2/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_block--system-messages-block.html.twig_dd3bc58d05e32981e93083108467ad0f7b97795f719d5a15c9ba009cebe192c2/4211b955ec8bcc24f273daec94671e7c6a241d68b0419ad7d10436cc3ce170cd.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_block.html.twig_48fc8a09700e00fddf71dace824007c40663fc78aeaa792a039ce0d0fb0a6ec7/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_block.html.twig_48fc8a09700e00fddf71dace824007c40663fc78aeaa792a039ce0d0fb0a6ec7/3013a50fe67bdbaf80a86251bc6c680937d17025ce5a436b42436c584c3c5869.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_block.html.twig_b1f976290068a5cf8a6ec04c8ca8deeda01ca73228c5d5b0a45aec0db037702c/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_block.html.twig_b1f976290068a5cf8a6ec04c8ca8deeda01ca73228c5d5b0a45aec0db037702c/20708380fd83471fa75375681b298db301f7d37bdf44f0f692f809e890ccbcf3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_breadcrumb.html.twig_d0b4b776ea21951aa71dd06dff78f18ce36dff32adb4b4487dd6e510c40f6c00/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_breadcrumb.html.twig_d0b4b776ea21951aa71dd06dff78f18ce36dff32adb4b4487dd6e510c40f6c00/1516840213f49b4908e0e3064546022d140084ccfeeea9e62c6f914f8be2f31e.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_container.html.twig_ef4e447d59e0aa4d240603ee048c0ed5cb3488fb46d81235bf0d58178ff444c4/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_container.html.twig_ef4e447d59e0aa4d240603ee048c0ed5cb3488fb46d81235bf0d58178ff444c4/cfa0dd3c0b7f4f90726dc1e6fb101888d22529822b4406b44d49d34ea0809027.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_details.html.twig_9827ed7eccb57fca260f3209f8c0497c0fc3a1e503969b2090a66e17eb6ba7ee/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_details.html.twig_9827ed7eccb57fca260f3209f8c0497c0fc3a1e503969b2090a66e17eb6ba7ee/2ff4428a17b03975c91da9dae1df809a063a1538a7055664c62a4cb3a6614bd3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_form-element-label.html.twig_25772722c006966b6281b04793ed35db7f5cbe034764f51fa0631dc0686561d6/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_form-element-label.html.twig_25772722c006966b6281b04793ed35db7f5cbe034764f51fa0631dc0686561d6/a5368b7af05de61e3e70b969a891608a9baa2d2acbd019a52218f71a1830c1be.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_form-element.html.twig_5f32e6e9312f460ecc3bfdd598aaae3205c8d5e5dfb2b3159937487b8a5a89dd/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_form-element.html.twig_5f32e6e9312f460ecc3bfdd598aaae3205c8d5e5dfb2b3159937487b8a5a89dd/b2a5e30849142602851db74a034783b96335bbd1561ab67707710c21a867eca7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_form.html.twig_aa1e3e66b29480790542f85ad7aa68a1fde45dd7b9018da8c8690226a4007a94/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_form.html.twig_aa1e3e66b29480790542f85ad7aa68a1fde45dd7b9018da8c8690226a4007a94/2ad5bce154f5ca5fb41707790a6baa833612a9cf07f5a704e22da9bcb836cd29.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_html.html.twig_87560e31fd46deee9133a8c18a307c81be308e97d33d76a7cb03c0cf5c212241/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_html.html.twig_87560e31fd46deee9133a8c18a307c81be308e97d33d76a7cb03c0cf5c212241/cd8d76f6d7de85a7e46c561bb65250673b9f53ec51ccae8096731a7896e9b406.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_input.html.twig_adcb5ca39858dafb287048cdc5e68fd2b7752d4f1f4dd569215fbe1f0383edbd/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_input.html.twig_adcb5ca39858dafb287048cdc5e68fd2b7752d4f1f4dd569215fbe1f0383edbd/64d79167bed16f6a988ed7b5a7dac80b1c4a8277c642d47f85184b2a32e80d8c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_item-list.html.twig_f20dc47d406e641cd7e9d11216c34f426cb65d512008bd5b0b9d816caed6fdc1/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_item-list.html.twig_f20dc47d406e641cd7e9d11216c34f426cb65d512008bd5b0b9d816caed6fdc1/0e40cab537934cd498629307202870b867848847d83a63ad269b20c9d99ce643.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_links.html.twig_2bbdef7e0a82e30f38e70f1ad61de88b4ba5186431ccf0755093b61a6b8d8ce4/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_links.html.twig_2bbdef7e0a82e30f38e70f1ad61de88b4ba5186431ccf0755093b61a6b8d8ce4/05d576dfcf5029d6afec104db10a910bb71517745714b48504dd85b237311682.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_menu--toolbar.html.twig_cc776a4c11cc8473909db43ed235411dc46f6c771385885eac7a388da5d5fff1/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_menu--toolbar.html.twig_cc776a4c11cc8473909db43ed235411dc46f6c771385885eac7a388da5d5fff1/a578c79f4bc4cdae6cccea019ba3cafc8b003e3912e081895feef3c64956b1d6.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_menu-local-task.html.twig_a54319100cb548e72c8e10fa70802ee37f16ab40775bad4ab580ad0941db6a77/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_menu-local-task.html.twig_a54319100cb548e72c8e10fa70802ee37f16ab40775bad4ab580ad0941db6a77/888b7aa16fb338423420d3fb720b20d3a94970b5717afcc67b5402eed9a08456.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_menu-local-tasks.html.twig_29a1ba7daf96c8504424518f1a1a0b4e7b0dee3ec95d01de03ab5bb789519e7e/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_menu-local-tasks.html.twig_29a1ba7daf96c8504424518f1a1a0b4e7b0dee3ec95d01de03ab5bb789519e7e/e6264bdb483531102432a2aea548f713c7ddf128408dee1c702f79c999333033.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_page-title.html.twig_7250ca6cd9264cd536e8c440e518d8f851da29047069399ba530bee22a999358/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_page-title.html.twig_7250ca6cd9264cd536e8c440e518d8f851da29047069399ba530bee22a999358/06a2df0378d579357ac701134d7e1681691db8305d7f4bcec6424d535acf7d43.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_page.html.twig_2da732752c67763dc24490c3162ce58cbb31fb1b1d7da3bcaee44a01756853c1/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_page.html.twig_2da732752c67763dc24490c3162ce58cbb31fb1b1d7da3bcaee44a01756853c1/4947962dba6c4db9f4a1f6759f418ee146816801033fec0876a9e38c6dda451f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_region.html.twig_e74c0d2302b42ef2cf089f03cdf7d659fbcd30db5d7961ad71b7f0cb7f9731f2/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_region.html.twig_e74c0d2302b42ef2cf089f03cdf7d659fbcd30db5d7961ad71b7f0cb7f9731f2/d62eb7e69fcbb11db5ac2d9d339ea2f8768df0951142b8bebbbf6c040c8dd089.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_status-messages.html.twig_e0cccb6db920c1e786fd4b47400f57d77471ed2039ccb3f0acc01aee17b81f38/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_status-messages.html.twig_e0cccb6db920c1e786fd4b47400f57d77471ed2039ccb3f0acc01aee17b81f38/691e748b132cde830b7ab06e1894a383c58f9d883468a0a5620b2800b50c832f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_system-modules-details.html.twig_5a83c33b81a298d8d652cad5b5ef9571ee0369c7269e33d4866d7a53c3f67894/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_system-modules-details.html.twig_5a83c33b81a298d8d652cad5b5ef9571ee0369c7269e33d4866d7a53c3f67894/9bd28e2308095e905e7a9edf809b30b62071e27c1c30d3efd70a46938a144dab.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_toolbar.html.twig_55ad8a7feeb5be5157cc5a8d0a307ac6511234b835f40cfb2f02d6431b6713a6/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/a73ef458_toolbar.html.twig_55ad8a7feeb5be5157cc5a8d0a307ac6511234b835f40cfb2f02d6431b6713a6/8400f8a30381fdd3c465801e7ca67c86ea2da14065ecb78519b5eb5f48fcff9b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/block.info.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/block.libraries.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/colors/black.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/colors/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/colors/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/colors/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/colors/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/colors/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/colors/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/colors/teal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/colors/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/font/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/font/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/font/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/font/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/font/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/sliders/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/sliders/jquery.onebyone.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/sliders/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/switch.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/css/theme-options.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/blocks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/jflickrfeed.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/jquery.carouFredSel-6.1.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/jquery.isotope.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/jquery.onebyone.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/jquery.touchSwipe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/jquery.touchwipe.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/jquery.ui.totop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/mobile-map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/retina.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/slimbox2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/style_switch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/block/js/theme_settings.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/redcrackle/redcrackle.info.yml" afterPath="$PROJECT_DIR$/themes/redcrackle/redcrackle.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/404.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/aiko.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/anon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/backgrounds/bedge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/slider/blocks-imac.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/slider/blocks-ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/slider/blocks-iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/blocks-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/heading-backgrounds/bullseyes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/backgrounds/cartographer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/heading-backgrounds/cartographer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/heading-backgrounds/checkered.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/assets/circlebutton.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/slimbox/closelabel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/cream-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/slider/css3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/dark-blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/dark-grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/dark_dotted.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/backgrounds/dark_mosaic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/heading-backgrounds/dark_wood.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/slider/drupal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/assets/example1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/assets/example2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/frank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/gplay-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/backgrounds/gplaypattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/heading-backgrounds/gplaypattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/grey-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/backgrounds/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/grid-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/hr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/slider/html5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/backgrounds/illusion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/light-grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/heading-backgrounds/linen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/load.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/slimbox/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/assets/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/slimbox/nextlabel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/backgrounds/nistri.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/backgrounds/noisy_grid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/backgrounds/office.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/assets/paven.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/assets/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/slimbox/prevlabel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/assets/reponsiveexample.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/backgrounds/retina_wood.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/robyn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/heading-backgrounds/shattered.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/slider/skyline.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/steve.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/team1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/team2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/team3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/team4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/team_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/heading-backgrounds/tile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/ui.totop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/images/switch/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/css/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/css/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/css/switch.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redcrackle/css/theme-options.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_block--local-tasks-block.html.twig_0bf333cc077f65d70b85426ffdb2817b2940ce16aefbdd9e800e18302bda8ff7/acc55d601d6cfc2f894f019e8e4061abaa5953a3e6968d986731586828f48a5b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_block--system-messages-block.html.twig_dd3bc58d05e32981e93083108467ad0f7b97795f719d5a15c9ba009cebe192c2/199319c938fcc14f16b65dd92e791990d38f8c33922cea4c930f6990406863c9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_block.html.twig_48fc8a09700e00fddf71dace824007c40663fc78aeaa792a039ce0d0fb0a6ec7/652aaf1e4854f43f6228551becb1cee2d036d089c906c1335223f0724a612501.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_block.html.twig_b1f976290068a5cf8a6ec04c8ca8deeda01ca73228c5d5b0a45aec0db037702c/61ae081826f0247404863c7e09e28740b5d498640f7f3e5d21dbbee332d1b867.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_breadcrumb.html.twig_d0b4b776ea21951aa71dd06dff78f18ce36dff32adb4b4487dd6e510c40f6c00/3e69043acca0d5ef9c81ef94f08887b5157b7943af91cd9d5229082e39e77b27.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_container.html.twig_ef4e447d59e0aa4d240603ee048c0ed5cb3488fb46d81235bf0d58178ff444c4/062c9135dc08645e30e0a6e36ba2c57f52ef174a7f06bfa16078856a45b44a78.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_dropbutton-wrapper.html.twig_6e41ca75f90e400138719451265b6c583126e69123fb7bcccb3856f884191a3c/9204b159eab05fe1283895efeb22bc13ddc63a84b3f051e399655848688f5e15.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_form-element-label.html.twig_25772722c006966b6281b04793ed35db7f5cbe034764f51fa0631dc0686561d6/fac2c682bdbebabf8bbd6b7d8a363e489821410714ae69c7657b39df5677f3ab.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_form-element.html.twig_5f32e6e9312f460ecc3bfdd598aaae3205c8d5e5dfb2b3159937487b8a5a89dd/562adfe4343944054fc64911d903d2f270f484dc1198723f92dcf37e131cc5bd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_form.html.twig_aa1e3e66b29480790542f85ad7aa68a1fde45dd7b9018da8c8690226a4007a94/81467ede0aa41dc4e0e3ad088c1d4b64262f73fadfc0ecef4201fc43ca22a142.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_html.html.twig_87560e31fd46deee9133a8c18a307c81be308e97d33d76a7cb03c0cf5c212241/cc60eb8628c9402d988b5999d053a3a06bcf417b1c04492419ff8ea7d2b2c424.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_input.html.twig_adcb5ca39858dafb287048cdc5e68fd2b7752d4f1f4dd569215fbe1f0383edbd/52ee847a764bc198448cb44a1086f0630555f65efdbe1f9107074a4ad46c6209.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_links.html.twig_2bbdef7e0a82e30f38e70f1ad61de88b4ba5186431ccf0755093b61a6b8d8ce4/4f9dcc4e04efd1ddf20e88913a10d1a30496ac11b0ebcaf9201b00228577b53d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_menu--toolbar.html.twig_cc776a4c11cc8473909db43ed235411dc46f6c771385885eac7a388da5d5fff1/518a07cce9df6bd9ba0ec60139e2a71cb514c628e4d0d2724efd271efe73b728.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_menu-local-task.html.twig_a54319100cb548e72c8e10fa70802ee37f16ab40775bad4ab580ad0941db6a77/84c26aecfa67677c16337abf4ee35dc22041ec39786fd1f2f23c4cad1ddc5012.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_menu-local-tasks.html.twig_29a1ba7daf96c8504424518f1a1a0b4e7b0dee3ec95d01de03ab5bb789519e7e/4189ec3b25ae657fb5f252abf2a285a5a0f6bbff5d1a4861dcf489b79d4fa276.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_page-title.html.twig_7250ca6cd9264cd536e8c440e518d8f851da29047069399ba530bee22a999358/8f9331a3c6c03a1eec749e6ee2cc8dde957be97031f383b1de5b2730b8d5c794.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_page.html.twig_2da732752c67763dc24490c3162ce58cbb31fb1b1d7da3bcaee44a01756853c1/d5cc375570b5ab5bffab553482a5805abf761060fa9a40b58c33b31942e99480.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_region.html.twig_e74c0d2302b42ef2cf089f03cdf7d659fbcd30db5d7961ad71b7f0cb7f9731f2/aec2a1716e8b73f22870541b27aa6d63107f343ea918b3de39febce107b3ed36.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_select.html.twig_6b00bfb3e2ccd5e53c78710d9bb7876d04ce28ba191913f591e668358f3b438d/6bb737045636e2239943c84ccec7cb73e022e1c3f9017b74948b8f28342cd6a1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_status-messages.html.twig_e0cccb6db920c1e786fd4b47400f57d77471ed2039ccb3f0acc01aee17b81f38/068e99710ba70a5a33d198b109535d949c241929effd555e513adaf9677765a3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_table.html.twig_19716e24018e03b3ddc88ec4a07580c24de7c52aa1aa313f40f14601711a0caf/fd9b2aa82d6a864591c4a859b0130843c000ededf91f8e44f202b36baacf1a0c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1c4c87c9_toolbar.html.twig_55ad8a7feeb5be5157cc5a8d0a307ac6511234b835f40cfb2f02d6431b6713a6/cba505e9eb061b83f5f827425bf3bf4ea6d9aad22b4ed5ec983ba3245e450032.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/redcrackle/template/html.html.twig" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/redcrackle/template/page/page.html.twig" afterPath="$PROJECT_DIR$/themes/redcrackle/template/page/page.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/redcrackle/red.libraries.yml" afterPath="$PROJECT_DIR$/themes/redcrackle/red.libraries.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="red.drupal8.iws" />
@@ -121,21 +131,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/redcrackle/template/page/page.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2079723">
-              <caret line="127" column="58" selection-start-line="127" selection-start-column="58" selection-end-line="127" selection-end-column="58" />
+            <state vertical-scroll-proportion="-6.470588">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/redcrackle/template/html.html.twig">
+      <file leaf-file-name="page--.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/redcrackle/template/page/page--.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.064124785">
+              <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redcrackle.info.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/redcrackle/redcrackle.info.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -145,7 +165,76 @@
         <entry file="file://$PROJECT_DIR$/themes/redcrackle/red.libraries.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <marker date="1454411485000" expanded="true" signature="0:264" placeholder="red:" />
+                <marker date="1454411485000" expanded="true" signature="60:264" placeholder="css:" />
+                <marker date="1454411485000" expanded="true" signature="69:264" placeholder="base:" />
+                <marker date="1454411485000" expanded="true" signature="109:132" placeholder="css/font-awesome.css:" />
+                <marker date="1454411485000" expanded="true" signature="161:181" placeholder="css/jquery-ui.css:" />
+                <marker date="1454411485000" expanded="true" signature="189:205" placeholder="css/style.css:" />
+                <marker date="1454411485000" expanded="true" signature="213:230" placeholder="css/switch.css:" />
+                <marker date="1454411485000" expanded="true" signature="238:262" placeholder="css/theme-options.css:" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sub-theme.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/redcrackle/css/sub-theme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.4074073">
+              <caret line="139" column="11" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/redcrackle/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1206" column="25" selection-start-line="1206" selection-start-column="25" selection-end-line="1206" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bartik.theme" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/themes/bartik/bartik.theme">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bartik.libraries.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/themes/bartik/bartik.libraries.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/redcrackle/css/font-awesome.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bartik.info.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/themes/bartik/bartik.info.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -182,12 +271,14 @@
         <option value="$PROJECT_DIR$/sites/default/settings.php" />
         <option value="$PROJECT_DIR$/themes/redcrackle/template/page/page--front.html.twig" />
         <option value="$PROJECT_DIR$/themes/redcrackle/css/sub-theme.css" />
-        <option value="$PROJECT_DIR$/themes/redcrackle/red.libraries.yml" />
         <option value="/usr/local/etc/php/5.6/php.ini" />
         <option value="$PROJECT_DIR$/themes/redcrackle/redcrackle.info.yml" />
         <option value="$PROJECT_DIR$/themes/redcrackle/template/html.html.twig" />
         <option value="$PROJECT_DIR$/core/themes/stable/templates/layout/html.html.twig" />
+        <option value="$PROJECT_DIR$/themes/redcrackle/red.libraries.yml" />
+        <option value="$PROJECT_DIR$/themes/redcrackle/css/style.css" />
         <option value="$PROJECT_DIR$/themes/redcrackle/template/page/page.html.twig" />
+        <option value="$PROJECT_DIR$/themes/redcrackle/template/page/page--.html.twig" />
       </list>
     </option>
   </component>
@@ -411,28 +502,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="seven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="red.drupal8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="red.drupal8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bartik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -454,6 +523,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/redcrackle/images" />
+      <recent name="$PROJECT_DIR$/themes/redcrackle/css" />
       <recent name="$PROJECT_DIR$/themes/redcrackle" />
       <recent name="$PROJECT_DIR$/themes/redcrackle/template/page" />
       <recent name="$PROJECT_DIR$/sites/default" />
@@ -515,26 +586,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32065997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32496414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39898348" sideWeight="0.50573885" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16433121" sideWeight="0.48855507" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16433121" sideWeight="0.48855507" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39898348" sideWeight="0.49426112" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39898348" sideWeight="0.49426112" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -575,6 +646,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/themes/redcrackle/template/page/page.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="16" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/redcrackle/red.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1454411485000" expanded="true" signature="0:264" placeholder="red:" />
+            <marker date="1454411485000" expanded="true" signature="60:264" placeholder="css:" />
+            <marker date="1454411485000" expanded="true" signature="69:264" placeholder="base:" />
+            <marker date="1454411485000" expanded="true" signature="109:132" placeholder="css/font-awesome.css:" />
+            <marker date="1454411485000" expanded="true" signature="161:181" placeholder="css/jquery-ui.css:" />
+            <marker date="1454411485000" expanded="true" signature="189:205" placeholder="css/style.css:" />
+            <marker date="1454411485000" expanded="true" signature="213:230" placeholder="css/switch.css:" />
+            <marker date="1454411485000" expanded="true" signature="238:262" placeholder="css/theme-options.css:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/redcrackle/redcrackle.info.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -603,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,13 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redcrackle/css/sub-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27419356">
-          <caret line="641" column="1" selection-start-line="641" selection-start-column="1" selection-end-line="641" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -750,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4822135">
           <caret line="2000" column="23" selection-start-line="2000" selection-start-column="23" selection-end-line="2000" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.49668875">
           <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,14 +860,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70198673">
           <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/themes/bartik/bartik.breakpoints.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/themes/seven/seven.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/themes/seven/seven.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/themes/bartik/config/schema/bartik.schema.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redcrackle/red.libraries.yml">
+    <entry file="file://$PROJECT_DIR$/core/themes/bartik/bartik.info.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/themes/bartik/bartik.theme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/themes/bartik/bartik.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/redcrackle/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -794,58 +932,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/themes/bartik/bartik.info.yml">
+    <entry file="file://$PROJECT_DIR$/themes/redcrackle/red.libraries.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1454411485000" expanded="true" signature="0:264" placeholder="red:" />
+            <marker date="1454411485000" expanded="true" signature="60:264" placeholder="css:" />
+            <marker date="1454411485000" expanded="true" signature="69:264" placeholder="base:" />
+            <marker date="1454411485000" expanded="true" signature="109:132" placeholder="css/font-awesome.css:" />
+            <marker date="1454411485000" expanded="true" signature="161:181" placeholder="css/jquery-ui.css:" />
+            <marker date="1454411485000" expanded="true" signature="189:205" placeholder="css/style.css:" />
+            <marker date="1454411485000" expanded="true" signature="213:230" placeholder="css/switch.css:" />
+            <marker date="1454411485000" expanded="true" signature="238:262" placeholder="css/theme-options.css:" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/themes/bartik/bartik.breakpoints.yml">
+    <entry file="file://$PROJECT_DIR$/themes/redcrackle/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/themes/seven/seven.info.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/themes/seven/seven.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/themes/bartik/bartik.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1974522">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redcrackle/template/html.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="1206" column="25" selection-start-line="1206" selection-start-column="25" selection-end-line="1206" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/redcrackle/template/page/page.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2079723">
-          <caret line="127" column="58" selection-start-line="127" selection-start-column="58" selection-end-line="127" selection-end-column="58" />
+        <state vertical-scroll-proportion="-6.470588">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/redcrackle/css/sub-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4074073">
+          <caret line="139" column="11" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/redcrackle/template/page/page--.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.064124785">
+          <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
           <folding />
         </state>
       </provider>
