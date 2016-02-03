@@ -72,6 +72,10 @@
         {{ page.header_login }}
         <a class="close-reveal-modal">&#215;</a>
     </div>
+    <div id="contact_modal" class="reveal-modal medium">
+        {{ page.header_contact }}
+        <a class="close-reveal-modal">&#215;</a>
+    </div>
     <div id="heading_wrapper">
         {{ page.page_heading }}
         {#{%  if  not ( drupal_is_front_page()) %}#}
@@ -88,7 +92,7 @@
         {#{%  endif %}#}
 
         <div class="row">
-            <div id="main_contain_wrap"  class = "{% if sidebar_first or sidebar_second  %} eight columns {% else %} twelve columns {% endif %}">
+            <div id="main_contain_wrap"  class = "{% if page.sidebar_first or page.sidebar_second  %} eight columns {% else %} twelve columns {% endif %}">
                 {#<div id="main_content" class="clearfix">#}
                 {#{{ title_prefix }}#}
                 {#{{ title_suffix }}#}
@@ -125,7 +129,7 @@
 </div>
 <div id="footer">
     <div class="container">
-        {% if footer_1 or footer_2 or footer_3 or footer_4 %}
+        {% if page.footer_1 or page.footer_2 or page.footer_3 or page.footer_4 %}
 
             <div class="row">
                 <div class="three columns">
@@ -145,7 +149,7 @@
             </div>
         {% endif %}
     </div>
-    {% if footer_full  %}
+    {% if page.footer_full  %}
         <div class="row">
             <div class="twelve columns">
                 {{ page.footer_full }}

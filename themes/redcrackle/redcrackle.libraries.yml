@@ -11,6 +11,11 @@ red:
       css/style.css: {}
       css/switch.css: {}
       css/theme-options.css: {}
+      foundation/stylesheets/foundation.css: {}
+      foundation/stylesheets/foundation.min.css: {}
+      foundation/stylesheets/general_enclosed_foundation.css: {}
+      foundation/stylesheets/general_foundicons.css: {}
+      foundation/stylesheets/social_foundation.css: {}
 
 color.preview:
   version: VERSION
