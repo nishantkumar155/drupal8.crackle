@@ -12,3 +12,16 @@ red:
       css/switch.css: {}
       css/theme-options.css: {}
 
+color.preview:
+  version: VERSION
+  css:
+    theme:
+      color/black.css: {}
+      color/blue.css: {}
+      color/default.css: {}
+      color/green.css: {}
+      color/orange.css: {}
+      color/purple.css: {}
+      color/red.css: {}
+      color/teal.css: {}
+      color/yellow.css: {}

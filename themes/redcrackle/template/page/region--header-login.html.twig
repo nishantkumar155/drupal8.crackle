@@ -1,0 +1,66 @@
+<div class="container">
+    <div id ="top_header">
+        <div class="row">
+            <div class="six column">
+                {% if header_login or header_contact %}
+                    <ul class="header_icon left">
+                        {% if header_login %}<li><a href="#" data-reveal-id="login_modal"><i class="general foundicon-settings"></i></a></li>{% endif %}
+                        {% if header_contact %}<li><a href="#" data-reveal-id="contact_modal"><i class="general foundicon-mail"></i></a></li>{% endif %}
+                    </ul>
+                {% endif %}
+            </div>
+            {% if header_top_left %}
+                {{ page.header_top_left }}
+            {% endif %}
+        </div>
+
+        {% if header_top_right %}
+            {{ page.header_top.right }}
+        {% endif %}
+    </div>
+    <div class="row">
+        <div class="three columns branding">
+            {% if logo %}
+                <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home" id="logo">
+                    <img src="{{ logo }}" alt="{{ 'Red Crackle Home'|t }}" />
+                </a>
+            {% endif %} {#end logo#}
+            {% if site_name or site_slogan %}
+                <div id="name-and-slogan" {% if disable_site_name and disable_site_slogan %} class="hidden" {% endif %} >
+                    {% if site_name %}
+                        <h1 id="main_title_text" {% if disable_site_name %} class="hidden" {% endif %}>
+                            <a href= "{{ front_page }}" title="{{ 'Home'|t }}" rel="home"><span> {{ site_name }}</span></a>
+                        </h1>
+                    {% endif %}
+                    {% if site_slogon %}
+                        <h2 id="main_title_slogan" {% if disable_site_slogan %} class="hidden" {% endif %} >
+                            {{  site_slogan }}
+                        </h2>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
+        {#end of branding#}
+        <div class="nine columns">
+            <div id="nav">
+                {#begin menu#}
+                <nav class="top-bar">
+                    <ul class="left">
+                        <li class="name">
+                            <h1>
+                                <a href="#">
+                                    Select a page
+                                </a>
+                            </h1>
+                        </li>
+                        <li class="toggle-topbar"><a href="#"></a></li>
+                    </ul>
+                    <section class="menu_wrap">
+                        {% if header_menu %} {{ page.header_menu }} {% endif %}
+                    </section>
+                </nav>
+            </div>
+        </div>
+        {#end of menu#}
+    </div>
+</div>
