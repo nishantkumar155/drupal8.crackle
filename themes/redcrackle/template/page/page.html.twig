@@ -11,39 +11,39 @@
                             </ul>
                         {% endif %}
 
-                    {% if page.header_top_left %}
-                        {{ page.header_top_left }}
-                    {% endif %}
-                </div>
-                <div class="six columns">
-                {% if page.header_top_right %}
-                    {{ page.header_top_right }}
-                {% endif %}
-                </div>
+                        {% if page.header_top_left %}
+                            {{ page.header_top_left }}
+                        {% endif %}
+                    </div>
+                    <div class="six columns">
+                        {% if page.header_top_right %}
+                            {{ page.header_top_right }}
+                        {% endif %}
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="three columns branding">
-                    {#{% if logo %}#}
-                        {#<a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home" id="logo">#}
-                            {#<img src="" alt="{{ 'Red Crackle Home'|t }}" />#}
-                    {{  page.header_login }}
+                    {% if logo %}
+                    <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home" id="logo">
+                        <img src="{{ logo }}" alt="{{ 'Red Crackle Home'|t }}" />
+                        {{ page.header_login }}
                         {#</a>#}
-                    {#{% endif %} &#123;&#35;end logo&#35;&#125;#}
-                    {% if site_name or site_slogan %}
-                        <div id="name-and-slogan" {% if disable_site_name and disable_site_slogan %} class="hidden" {% endif %} >
-                            {% if site_name %}
-                                <h1 id="main_title_text" {% if disable_site_name %} class="hidden" {% endif %}>
-                                    <a href= "{{ front_page }}" title="{{ 'Home'|t }}" rel="home"><span> {{ site_name }}</span></a>
-                                </h1>
-                            {% endif %}
-                            {% if site_slogon %}
-                                <h2 id="main_title_slogan" {% if disable_site_slogan %} class="hidden" {% endif %} >
-                                    {{  site_slogan }}
-                                </h2>
-                            {% endif %}
-                        </div>
-                    {% endif %}
+                        {% endif %}
+                        {% if site_name or site_slogan %}
+                            <div id="name-and-slogan" {% if disable_site_name and disable_site_slogan %} class="hidden" {% endif %} >
+                                {% if site_name %}
+                                    <h1 id="main_title_text" {% if disable_site_name %} class="hidden" {% endif %}>
+                                        <a href= "{{ front_page }}" title="{{ 'Home'|t }}" rel="home"><span> {{ site_name }}</span></a>
+                                    </h1>
+                                {% endif %}
+                                {% if site_slogon %}
+                                    <h2 id="main_title_slogan" {% if disable_site_slogan %} class="hidden" {% endif %} >
+                                        {{  site_slogan }}
+                                    </h2>
+                                {% endif %}
+                            </div>
+                        {% endif %}
                 </div>
                 {#end of branding#}
                 <div class="nine columns">
@@ -94,40 +94,40 @@
             </div>
         </div>
     </div>
-        {#{%  endif %}#}
+    {#{%  endif %}#}
 
-        <div class="row">
-            <div id="main_contain_wrap"  class = "{% if page.sidebar_first or page.sidebar_second  %} eight columns {% else %} twelve columns {% endif %}">
-                {#<div id="main_content" class="clearfix">#}
-                {#{{ title_prefix }}#}
-                {#{{ title_suffix }}#}
+    <div class="row">
+        <div id="main_contain_wrap"  class = "{% if page.sidebar_first or page.sidebar_second  %} eight columns {% else %} twelve columns {% endif %}">
+            {#<div id="main_content" class="clearfix">#}
+            {#{{ title_prefix }}#}
+            {#{{ title_suffix }}#}
 
-                {#{{ page.help }}#}
-                {#{% if (action_link) %}#}
-                {#<ul class="action-links">#}
-                {#{{ pahe.action_link }}#}
-                {#</ul>#}
-                {#{% endif %}#}
-                {{ page.content }}
-            </div>
-                {% if page.sidebar_first or page.sidebar_second %}
-                    <div class="four columns">
-                        <div id="sidebar_wrap">
-                            {% if page.sidebar_first %}
-                                <aside id="sidebar-first" role="complementary" class="sidebar clearfix">
-                                    {{ page.sidebar_first }}
-                                </aside>
-                            {% endif %}
-                            {% if page.sidebar_second %}
-                                <aside id="sidebar-second" role="complementary" class="sidebar clearfix">
-                                    {{ page.sidebar_second }}
-                                </aside>
-                            {% endif %}
-                        </div>
-                    </div>
-                {% endif %}
-
+            {#{{ page.help }}#}
+            {#{% if (action_link) %}#}
+            {#<ul class="action-links">#}
+            {#{{ pahe.action_link }}#}
+            {#</ul>#}
+            {#{% endif %}#}
+            {{ page.content }}
         </div>
+        {% if page.sidebar_first or page.sidebar_second %}
+            <div class="four columns">
+                <div id="sidebar_wrap">
+                    {% if page.sidebar_first %}
+                        <aside id="sidebar-first" role="complementary" class="sidebar clearfix">
+                            {{ page.sidebar_first }}
+                        </aside>
+                    {% endif %}
+                    {% if page.sidebar_second %}
+                        <aside id="sidebar-second" role="complementary" class="sidebar clearfix">
+                            {{ page.sidebar_second }}
+                        </aside>
+                    {% endif %}
+                </div>
+            </div>
+        {% endif %}
+
+    </div>
 
 </div>
 <div id="after-content">

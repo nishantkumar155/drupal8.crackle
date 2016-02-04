@@ -4,18 +4,13 @@ red:
     - core/jquery
   css:
     base:
-      css/sub-theme.css: {}
-      css/font-awesome.css: {}
-      css/ie.css: {}
-      css/jquery-ui.css: {}
-      css/style.css: {}
-      css/switch.css: {}
-      css/theme-options.css: {}
       foundation/stylesheets/foundation.css: {}
-      foundation/stylesheets/foundation.min.css: {}
-      foundation/stylesheets/general_enclosed_foundation.css: {}
+      foundation/stylesheets/app.css: {}
       foundation/stylesheets/general_foundicons.css: {}
-      foundation/stylesheets/social_foundation.css: {}
+      foundation/stylesheets/general_foundations.css: {}
+      css/font-awesome.css: {}
+      css/style.css: {}
+      css/sub-theme.css: {}
 
 color.preview:
   version: VERSION
