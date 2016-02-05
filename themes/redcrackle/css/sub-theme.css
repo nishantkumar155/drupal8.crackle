@@ -658,6 +658,20 @@ h3.highlight, h4.highlight {
     background: none;
     font-weight: bold;
 }
-
+.green{
+    background: #00d619;
+}
+.skyblue{
+    background:  #4dd6d6;
+}
+.blue{
+    background: #1525df;
+}
+.red{
+    background: #d63434;
+}
+.white{
+    color: #ffffff;
+}
 
 /* End of Drupal Support Form Styling*/

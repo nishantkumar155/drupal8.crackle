@@ -22,6 +22,7 @@ regions:
  sidebar_first: 'Sidebar first'
  sidebar_second: 'Sidebar second'
  content: 'Content'
+ after_content1: 'Content1'
  after_content: 'After Content'
  footer_1: 'Footer 1'
  footer_2: 'Footer 2'
@@ -29,6 +30,7 @@ regions:
  footer_4: 'Footer 4'
  footer_full: 'Footer Full'
  modal_markup: 'Modal Markup'
+
 
 
 

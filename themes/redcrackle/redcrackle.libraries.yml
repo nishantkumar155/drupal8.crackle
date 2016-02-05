@@ -12,6 +12,25 @@ red:
       css/style.css: {}
       css/sub-theme.css: {}
 
+  js:
+#    js/test.js: {}
+    foundation/javascripts/foundation.min.js: {}
+    foundation/javascripts/app.js: {}
+    js/jquery.isotope.js: {}
+    js/jquery.touchSwipe.js: {}
+    js/jquery.onebyone.min.js: {}
+    js/jquery.touchwipe.min.js: {}
+    js/retina.js: {}
+    includes/twitter/jquery.tweet.js: {}
+    js/slimbox2.js: {}
+    js/jflickrfeed.min.js: {}
+    js/jquery.carouFredSel-6.1.0.js: {}
+    js/mobile-map.js: {}
+    js/jquery.ui.totop.js: {}
+    js/easing.js: {}
+    js/blocks.js: {}
+    js/style_switch.js: {}
+
 color.preview:
   version: VERSION
   css:
@@ -25,3 +44,4 @@ color.preview:
       color/red.css: {}
       color/teal.css: {}
       color/yellow.css: {}
+

@@ -1,0 +1,36 @@
+{#{{ dump(title) }}#}
+{#{% if content.field_color %}#}
+
+{#<div class="tile {{ content.field_tile_size }} columns" style="background: {{ content.field_color }}">#}
+    {#<a href="{% if content.field_tile_url %} {{ content.field_tile_url }} {% endif %}"  style="color: {{ content.field_text_color }}">#}
+    {#<div class="tile-title"> {{ title }}</div>#}
+    {#<i class="{{ content.field_icon }}"></i>#}
+    {#</a>#}
+{#</div>#}
+{#{% endif %}#}
+{#{{ row.content }}#}
+
+{#{{ kint (item) }}#}
+
+
+{% for field in fields -%}
+ {{ field.separator }}
+ {%- if field.wrapper_element -%}
+   <{{ field.wrapper_element }}{{ field.wrapper_attributes }}>
+ {%- endif %}
+ {%- if field.label -%}
+   {%- if field.label_element -%}
+     <{{ field.label_element }}{{ field.label_attributes }}>{{ field.label }}{{ field.label_suffix }}</{{ field.label_element }}>
+   {%- else -%}
+     {{ field.label }}{{ field.label_suffix }}
+   {%- endif %}
+ {%- endif %}
+ {%- if field.element_type -%}
+   <{{ field.element_type }}{{ field.element_attributes }}>{{ field.content }}</{{ field.element_type }}>
+ {%- else -%}
+   {{ field.content }}
+ {%- endif %}
+ {%- if field.wrapper_element -%}
+   </{{ field.wrapper_element }}>
+ {%- endif %}
+{%- endfor %}
