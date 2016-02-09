@@ -1,0 +1,33 @@
+{#{% for row in rows %}#}
+    {#{%#}
+    {#set row_classes = [#}
+    {#default_row_class ? 'views-row',#}
+    {#]#}
+    {#%}#}
+    {#{{ kint(row) }} &#123;&#35; devel &#35;&#125;#}
+    {#<h2> {{row.content['#node'].getTitle()}} </h2> &#123;&#35; access fields &#35;&#125;#}
+    {#<div{{ row.attributes.addClass(row_classes) }}>#}
+        {#{{ row.content.field_image }}#}
+    {#</div>#}
+{#{% endfor %}#}
+{#nishant {{ field_image }}#}
+{#<h1>{{ fields.title.content }}</h1>#}
+
+<div class="tile {{ fields.field_tile_size.content }} columns {{ fields.field_tile_colours.content }}" >
+    <div class="services_content">
+        <div class="team_image">
+
+
+            {{ fields.field_image.content }}  </div>
+        <div class="team_image_hover" style="opacity: 0;">
+            <h3 class="image-tile-title">{{ fields.title.content  }}</h3>
+            <p><a href="{{ fields.field_tile_url.content }}"><i class="general foundicon-search"></i></a></p>
+        </div>
+    </div>
+    <a href="{{ fields.field_tile_url.content }}" class=" {{ fields.field_text_colours.content }} " >
+        <div class="tile-title">{{ fields.title.content }}</div>
+        <i class="{{ fields.field_icon.content }}"></i>
+    </a>
+</div>
+
+{#{{ dump() }}#}

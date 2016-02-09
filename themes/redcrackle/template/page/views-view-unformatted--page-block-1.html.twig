@@ -1,0 +1,12 @@
+{% for row in rows %}
+        {%
+            set row_classes = [
+                default_row_class ? 'views-row',
+                'panel',
+                'panel-default',
+            ]
+        %}
+        <div {{="" row.attributes.addclass(row_classes)="" }}="">
+            {{ row.content }}
+        </div>
+    {% endfor %}
