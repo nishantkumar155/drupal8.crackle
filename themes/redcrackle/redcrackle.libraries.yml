@@ -7,7 +7,7 @@ red:
       foundation/stylesheets/foundation.css: {}
       foundation/stylesheets/app.css: {}
       foundation/stylesheets/general_foundicons.css: {}
-      foundation/stylesheets/general_foundations.css: {}
+      #foundation/stylesheets/general_foundation.css: {}
       css/font-awesome.css: {}
       css/style.css: {}
       css/sub-theme.css: {}

@@ -1,0 +1,17 @@
+<div class="comment_avatar">
+    {{ user_picture }}
+</div>
+<div class="comment_body">
+    <ul class="comment_meta">
+        <li><i class="icon-user"></i> by {{ author }}</li>
+        <li><i class="icon-calendar"></i> {{ created }}</li>
+        <li><i class="icon-info-sign"></i> {{ permalink }}</li>
+    </ul>
+    <div {{ content_attributes }}>
+        {{ content }}
+        <div class="user-signature clearfix">
+            {{ signature }}
+        </div>
+    </div>
+
+</div>

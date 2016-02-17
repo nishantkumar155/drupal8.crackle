@@ -24,26 +24,32 @@
             </div>
             <div class="row">
                 <div class="three columns branding">
-                    {% if logo %}
+                    {#{{ logopath }}#}
                     <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home" id="logo">
-                        <img src="{{ logo }}" alt="{{ 'Red Crackle Home'|t }}" />
-                        {{ page.header_login }}
+                    <img src="{{ logopath }}" alt="{{ 'Red Crackle Home'|t }}" />
+                    </a>
+                    {#<img src="{{ logo }}" alt="{{ 'Home'|t }}" />#}
+                    {#{% if logo %}#}
+                    {#<a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home" id="logo">#}
+                        {#<img src="{{ logopath }}" alt="{{ 'Red Crackle Home'|t }}" />#}
+                        {#{{ page.header_login }}#}
+
                         {#</a>#}
-                        {% endif %}
-                        {% if site_name or site_slogan %}
-                            <div id="name-and-slogan" {% if disable_site_name and disable_site_slogan %} class="hidden" {% endif %} >
-                                {% if site_name %}
-                                    <h1 id="main_title_text" {% if disable_site_name %} class="hidden" {% endif %}>
-                                        <a href= "{{ front_page }}" title="{{ 'Home'|t }}" rel="home"><span> {{ site_name }}</span></a>
-                                    </h1>
-                                {% endif %}
-                                {% if site_slogon %}
-                                    <h2 id="main_title_slogan" {% if disable_site_slogan %} class="hidden" {% endif %} >
-                                        {{  site_slogan }}
-                                    </h2>
-                                {% endif %}
-                            </div>
-                        {% endif %}
+                        {#{% endif %}#}
+                        {#{% if site_name or site_slogan %}#}
+                            {#<div id="name-and-slogan" {% if disable_site_name and disable_site_slogan %} class="hidden" {% endif %} >#}
+                                {#{% if site_name %}#}
+                                    {#<h1 id="main_title_text" {% if disable_site_name %} class="hidden" {% endif %}>#}
+                                        {#<a href= "{{ front_page }}" title="{{ 'Home'|t }}" rel="home"><span> {{ site_name }}</span></a>#}
+                                    {#</h1>#}
+                                {#{% endif %}#}
+                                {#{% if site_slogon %}#}
+                                    {#<h2 id="main_title_slogan" {% if disable_site_slogan %} class="hidden" {% endif %} >#}
+                                        {#{{  site_slogan }}#}
+                                    {#</h2>#}
+                                {#{% endif %}#}
+                            {#</div>#}
+                        {#{% endif %}#}
                 </div>
                 {#end of branding#}
                 <div class="nine columns">

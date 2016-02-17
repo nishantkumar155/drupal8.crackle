@@ -1,0 +1,25 @@
+{#{{ fields.field_portfolio_image.content }}#}
+{#{{ fields.field_portfolio_category.content }}#}
+<div class="portfolio_columns columns switch field_portfolio_category">
+<a href=" ">
+    <div class="carousel_item_wrapper">
+        <div class="carousel_item_content">
+            <div class="carousel_item_image">
+               {{ fields.field_portfolio_image.content }}
+
+            </div>
+        </div>
+        <div class="carousel_item_hover">
+            <p></p>
+            <p><i class="general foundicon-search"></i></p>
+        </div>
+    </div>
+
+</div>
+</a>
+{#{{ dump(field_portfolio_category) }}#}
+{#<div class="carousel_item_hover">#}
+    {#<p>{{ fields.field_portfolio_category.content }}</p>#}
+    {#<p><i class="general foundicon-search"></i></p>#}
+{#</div>#}
+{#</div>#}

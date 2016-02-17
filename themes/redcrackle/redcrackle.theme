@@ -1,0 +1,40 @@
+<!---->
+<?php
+function redcrackle_preprocess_page(&$variables) {
+  global $base_path;
+//  $variables['logopath'] = /*'/sites/' .*/ drupal_get_path('theme','redcrackle') . '/image/red_Crackle_logo_0_0_0_0_0.jpg';
+//  $variables['logopath'] = $base_path . drupal_get_path('theme','redcrackle') . '/image/logo.png';
+    $variables['logopath'] = '/' . drupal_get_path('theme','redcrackle') . '/logo.png';
+//  if ($cache[$theme]->get('logo.use_default')) {
+//    $cache[$theme]->set('logo.url', file_create_url($theme_object->getPath() . '/logo.svg'));
+//  }
+//  elseif ($logo_path = $cache[$theme]->get('logo.path')) {
+//    $cache[$theme]->set('logo.url', file_create_url($logo_path));
+//  }
+
+}
+
+function redcrackle_link_alter(array $variables) {
+  unset($variables['element']['#attributes']['class']);
+  $element = $variables['element'];
+  static $item_id = 0;
+  $menu_name = $element['#original_link']['menu_name'];
+  $element['#localized_options']['html'] = TRUE;
+
+  if ($element['#original_link']['depth'] == 1 && $menu_name == \Drupal::state()->get('menu_main_links_source', 'main-menu')) {
+    $element['#attributes']['class'][] = 'menu_' . (++$item_id);
+  }
+
+  if ($element['#below']) {
+    $element['#attributes']['class'][] = 'has-dropdown';
+  }
+
+  if (theme_get_setting('menu_description') == '1' && $element['#original_link']['menu_name'] == "main-menu" && isset($element['#localized_options']['attributes']['title'])){
+    $element['#title'] .= $element['#localized_options']['attributes']['title'] ;
+  }
+
+  $sub_menu = $element['#below'] ? \Drupal::service('renderer')->render($element['#below']) : '';
+  $output = \Drupal::l($element['#title'], $element['#href'], $element['#localized_options']);
+
+  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . '</li>';
+}

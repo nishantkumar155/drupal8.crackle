@@ -31,6 +31,14 @@ regions:
  footer_full: 'Footer Full'
  modal_markup: 'Modal Markup'
 
-
+settings:
+  features:
+      comment_user_picture: true
+      comment_user_verification: true
+      favicon: true
+      logo: false
+      name: true
+      node_user_picture: true
+      slogan: true
 
 
